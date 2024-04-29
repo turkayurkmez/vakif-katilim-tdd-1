@@ -1,0 +1,11 @@
+﻿
+1. Başarısız olan bir birim testini, başarılı hale getirmek dışında herhangi bir üretim kodu yazamazsınız! 
+2. Bir birim testinin başarısız olması için yeterli olandan daha fazlasını yazmanıza izin verilmez ve compiler hataları da başarısızlıktır.
+3. Başarısız olan tek bir birim testini geçmek için yeterli olandan daha fazla üretim kodu yazamazsınız!
+
+En önemli Test Patterni
+Red-Green-Refactor
+
+Red: Testiniz önce çalışmamalı. Hata vermeli
+Green: Az önce hata veren testten geçmek için ne yazmalıyım?
+Refactor: Kodu daha iyi nasıl yazarsınız?
