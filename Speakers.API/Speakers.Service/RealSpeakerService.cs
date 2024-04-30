@@ -18,6 +18,18 @@ namespace Speakers.Service
             this.dbContext = dbContext;
         }
 
+        public Speaker Create(Speaker speaker)
+        {
+            dbContext.Speakers.Add(speaker);
+            dbContext.SaveChanges();
+            return speaker;
+        }
+
+        public Speaker GetSpeaker(int id)
+        {
+            return dbContext.Speakers.FirstOrDefault(p => p.Id == id);
+        }
+
         public IEnumerable<Speaker> GetSpeakers()
         {
             return dbContext.Speakers.ToList();

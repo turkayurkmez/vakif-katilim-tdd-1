@@ -6,5 +6,8 @@ namespace Speakers.Service
     {
         IEnumerable<Speaker> GetSpeakers();
         IEnumerable<Speaker> SearchSpeakersByName(string name);
+
+        Speaker Create(Speaker speaker);
+        Speaker GetSpeaker(int id);
     }
 }
