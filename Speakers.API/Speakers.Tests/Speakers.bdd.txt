@@ -1,0 +1,16 @@
+﻿Gherkin Language:
+
+(As a)Bir konferans organizatörü olarak
+(I want to) Mevcut konuşmacıları istiyorum
+(So that)Böylece konferans hakkında onlarla iletişim kurabilirim.
+
+(Given) Konferans organizatörü olduğum için
+(And Given) Ve aklımda bir konuşmacı varsa
+(When) Konuşmacıları isime göre aradığımda
+(Then) Böylece, ilk adı eşleşen konuşmacıları görmek istiyorum.
+
+(Given) Konferans organizatörü olduğum için
+(And Given) Ve aklımda bir konuşmacı varsa
+(When) Konuşmacıları isime göre aradığımda
+(Then) Sonra, soyadı eşleşen konuşmacıları görmek istiyorum.
+
