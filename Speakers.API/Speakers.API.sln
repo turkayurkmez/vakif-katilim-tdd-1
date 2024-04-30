@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Speakers.API", "Speakers.API\Speakers.API.csproj", "{31724BF7-87DD-4AEF-8B13-9EFA6E40A7CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Speakers.API", "Speakers.API\Speakers.API.csproj", "{31724BF7-87DD-4AEF-8B13-9EFA6E40A7CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Speakers.Tests", "Speakers.Tests\Speakers.Tests.csproj", "{6695C73B-B31A-4C0A-95BA-DBCA5F5F5F0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Speakers.Tests", "Speakers.Tests\Speakers.Tests.csproj", "{6695C73B-B31A-4C0A-95BA-DBCA5F5F5F0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Speakers.Service", "Speakers.Service\Speakers.Service.csproj", "{744DE819-693C-4CC2-AD7A-3A9DCDED069B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Speakers.Service", "Speakers.Service\Speakers.Service.csproj", "{744DE819-693C-4CC2-AD7A-3A9DCDED069B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Speakers.Domain", "Speakers.Domain\Speakers.Domain.csproj", "{15544A45-5CEA-47DE-A376-C996F9C14D65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Speakers.Domain", "Speakers.Domain\Speakers.Domain.csproj", "{15544A45-5CEA-47DE-A376-C996F9C14D65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Speakers.Infrastructure", "Speakers.Infrastructure\Speakers.Infrastructure.csproj", "{DD7B9B82-CF11-4AA6-827C-09DB15DA8962}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{15544A45-5CEA-47DE-A376-C996F9C14D65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15544A45-5CEA-47DE-A376-C996F9C14D65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15544A45-5CEA-47DE-A376-C996F9C14D65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD7B9B82-CF11-4AA6-827C-09DB15DA8962}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD7B9B82-CF11-4AA6-827C-09DB15DA8962}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD7B9B82-CF11-4AA6-827C-09DB15DA8962}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD7B9B82-CF11-4AA6-827C-09DB15DA8962}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

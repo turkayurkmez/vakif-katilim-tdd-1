@@ -15,7 +15,7 @@ namespace Speakers.API.Controllers
         {
             this.speakerService = speakerService;
         }
-
+        [HttpGet]
         public IActionResult Search(string value)
         {
          

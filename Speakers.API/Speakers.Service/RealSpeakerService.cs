@@ -1,4 +1,5 @@
 ﻿using Speakers.Domain;
+using Speakers.Infrastructure.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,14 +10,22 @@ namespace Speakers.Service
 {
     public class RealSpeakerService : ISpeakerService
     {
+
+        private SpeakerDbContext dbContext;
+
+        public RealSpeakerService(SpeakerDbContext dbContext)
+        {
+            this.dbContext = dbContext;
+        }
+
         public IEnumerable<Speaker> GetSpeakers()
         {
-            throw new NotImplementedException();
+            return dbContext.Speakers.ToList();
         }
 
         public IEnumerable<Speaker> SearchSpeakersByName(string name)
         {
-            throw new NotImplementedException();
+            return dbContext.Speakers.ToList().Where(s => s.FullName.Contains(name, StringComparison.OrdinalIgnoreCase));
         }
     }
 }
